@@ -1,0 +1,152 @@
+html {
+    background-color: rgb(208, 225, 231);
+    color: #555;
+    font-family: "Mina", sans-serif, arial;
+    display: flex;
+}
+
+
+p {
+    font-size: medium;
+    width: 100%;
+    text-align: center;
+    font-weight: normal;
+    color: #777;
+    margin-top: 10px;
+}
+
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.name-and-title {
+    text-align: center;
+}
+
+
+.column {
+    padding: 10px;
+}
+
+
+.column:nth-of-type(2) {
+    flex: 80%;
+}
+
+
+.column img {
+    max-block-size: 8em;
+}
+
+
+/* Hero image section */
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+
+/* Featured work section */
+.featured-work {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 0 1rem;
+    align-items: center;
+}
+
+
+.my-projects img {
+    height: auto;
+}
+
+
+.project-box img {
+    display: block;
+}
+
+
+.project-box {
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.responsive-image {
+    max-width: 100%;
+}
+
+
+.project-caption {
+    text-align: center;
+}
+
+
+@media screen and (min-width: 600px) {
+    .my-projects {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .project-box {
+        width: calc(50% - 2rem);
+    }
+  }
+
+
+@media screen and (min-width: 1000px) {
+    .project-box {
+        width: calc(100% / 3 - 2rem);
+    }
+}
+
+
+/* Hover effect - Idea taken from: https://www.w3schools.com/css/tryit.asp?filename=trycss_image_transparency */
+
+.hover-effect {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
+/* Footer section */
+footer {
+    text-align: center;
+}
+
+
+.u-list {
+    list-style-type: none;
+}
+
+
+.copyright-and-credits {
+    padding: 10px;  
+    margin: 20px;
+}
+
+
+/* Idea of negative margin to set the distance between the flexbox items, taken from: 
+https://stackoverflow.com/questions/20626685/better-way-to-set-distance-between-flexbox-items */
+
+.social-media-icons {
+    display: flex;
+    margin: 0 -5px;
+    justify-content: center;
+}
+
+
+.smi-item {
+    margin: 0 15px;
+}
