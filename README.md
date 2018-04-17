@@ -1,2 +1,2 @@
 # My-Portfolio
-My Portfolio Project for Udacity FEND 
+FEND Udacity Nanodegree - Project 2 - My Portfolio 
