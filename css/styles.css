@@ -50,7 +50,7 @@ body {
 
 /* Hero image section */
 .hero-image {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     margin: auto;
     padding: 25px;
