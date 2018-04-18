@@ -43,12 +43,12 @@ body {
 }
 
 
-.column img {
-    max-block-size: 8em;
+/* Hero image section */
+.hero-content {
+    margin: auto;
 }
 
 
-/* Hero image section */
 .hero-image {
     max-width: 100%;
     height: auto;
